@@ -1,0 +1,25 @@
+{
+  "name": "ezmarket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "concurrently \"cd ezmarket-client && npm i \" \"cd ezmarket-server && npm i \"",
+    "start": "concurrently \"cd ezmarket-client && npm start\" \"cd ezmarket-server && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xinyitay/ezmarket.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xinyitay/ezmarket/issues"
+  },
+  "homepage": "https://github.com/xinyitay/ezmarket#readme",
+  "devDependencies": {
+    "concurrently": "^6.5.1"
+  }
+}
