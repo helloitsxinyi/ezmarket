@@ -1,0 +1,6 @@
+[submodule "ezmarket-client"]
+	path = ezmarket-client
+	url = https://github.com/xinyitay/ezmarket-client
+[submodule "ezmarket-server"]
+	path = ezmarket-server
+	url = https://github.com/xinyitay/ezmarket-server
