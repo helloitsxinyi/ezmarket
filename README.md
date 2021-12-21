@@ -37,7 +37,7 @@ Hosted on <a>https://ezmarket.netlify.app</a>
    npm run setup
    ```
 
-4. Change local DB user and password to that of your own in `ezmarket-server/src/index.ts` and set ssl option (line 30) to `false`
+4. Change the PostgreSQL username and password to that of your own by updating the url option (line 28) in `ezmarket-server/src/index.ts` and set ssl option (line 30) to `false`
 
 5. Start the app
 
